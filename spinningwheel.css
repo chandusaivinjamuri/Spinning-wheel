@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#tryluckbutton,#buttonc{
+    height: 80px;
+    width: 250px;
+    background-color: rgb(143, 115, 79);
+    outline: dashed 5px red;
+    border: dashed 5px red;
+    
+    
+
+}
+#tryluckbuttoncont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(90deg,pink,orange);
+    position: absolute;
+    z-index: 1;
+
+
+}
+#spinwheelcon{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./imaages/7Tl.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: 100%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+#wheel{
+    width: 400px;
+}
+#arrow{
+    width: 80px;
+    position: absolute;
+    right: 29%;
+}
+#buttonc{
+    
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 5%;
+}
